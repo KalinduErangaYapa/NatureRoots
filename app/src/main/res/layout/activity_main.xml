@@ -45,6 +45,6 @@
         app:fabCustomSize="60dp"
         app:layout_anchor="@id/bottom_app_bar"
         app:layout_behavior="com.google.android.material.floatingactionbutton.FloatingActionButton$Behavior"
-        app:tint="@color/secondaryColor" />
+        app:tint="@android:color/holo_green_light" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
