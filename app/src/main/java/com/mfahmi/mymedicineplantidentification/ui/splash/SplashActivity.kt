@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding.imageView.setAnimation(R.anim.anim_slide_down, 1500L, 0L)
-        binding.tvSplashScreen.setAnimation(R.anim.anim_slide_up, 1000L, 0L)
+        binding.root.setAnimation(R.anim.anim_slide_up, 1000L, 0L)
 
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, MainActivity::class.java))
